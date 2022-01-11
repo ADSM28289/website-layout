@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b5a2fc8162.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 34px;
+            margin-right: 20px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+        }
+
+        form input {
+            font-size: 16px;
+            margin-bottom: 10px;
+            padding: 5px 20px;
+            background-color: lightpink;
+            color: white;
+            border-radius: 5px;
+            border: 1px solid lightgrey;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span> <a href="">home</a>
+                <a href="">blogs</a>
+                <a href="">products</a>
+                <a href="">about</a></span>
+            <span><a href=""><i class="fas fa-user-tie"></i></a>
+                <a href=""><i class="fas fa-sign-in-alt"></i></a></span>
+        </nav>
+        <section>
+            <form action="">
+                <h1>login:</h1>
+                <input type="email" name="Email" id="" placeholder="Email" required>
+                <input type="password" name="Password" id="" placeholder="Password" required>
+                <button type="submit">Login</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </header>
+</body>
+
+</html>
